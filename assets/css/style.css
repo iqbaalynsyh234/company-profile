@@ -3828,7 +3828,7 @@ textarea.form-control {
 }
 
 #footer {
-  background: url('assets/video/motor.gif') no-repeat center bottom white;
+  background: url('#') no-repeat center bottom white;
   background-size: cover;
 }
 
