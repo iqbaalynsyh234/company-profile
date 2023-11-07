@@ -3827,6 +3827,11 @@ textarea.form-control {
   border-top: 1px solid #eaeaea;
 }
 
+#footer {
+  background: url('assets/video/motor.gif') no-repeat center bottom white;
+  background-size: cover;
+}
+
 .footer-top {
   padding-top: 100px;
   padding-bottom: 67px;
