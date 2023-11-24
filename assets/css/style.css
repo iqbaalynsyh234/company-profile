@@ -2053,6 +2053,10 @@ textarea.form-control {
   margin-bottom: 9px;
 }
 
+#contact3 {
+  margin-top: 400px; /* Sesuaikan dengan jumlah margin atas yang Anda inginkan */
+}
+
 .contact__list li:last-child {
   margin-bottom: 0;
 }
@@ -3823,13 +3827,17 @@ textarea.form-control {
 /*-------------------------
     Footer
 --------------------------*/
-.footer {
-  border-top: 1px solid #eaeaea;
+#footer {
+  background: url("../video/satelit.gif"); /* Ganti 'path-to-your-background.gif' dengan URL gambar bergerak (GIF) yang ingin Anda gunakan */
+  background-size: cover; /* Sesuaikan dengan preferensi Anda */
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #fff; /* Warna teks yang cocok dengan latar belakang Anda */
 }
 
-#footer {
-  background: url('#') no-repeat center bottom white;
-  background-size: cover;
+
+.footer {
+  border-top: 1px solid #eaeaea;
 }
 
 .footer-top {
@@ -6097,6 +6105,7 @@ textarea.form-control {
 
 .blog-item .blog__content {
   padding-left: 30px;
+  text-align: justify;
 }
 
 .blog-item .blog__meta {
@@ -6218,6 +6227,7 @@ textarea.form-control {
 
 .blog-single .blog-item .blog__content {
   padding-left: 0;
+  text-align: justify;
 }
 
 .blog-single .blog-item .blog__title {
@@ -6519,6 +6529,7 @@ textarea.form-control {
 
   .blog-item .blog__content {
     padding-left: 0;
+    text-align: justify;
   }
 
   .blog-share .social__icons {
@@ -6560,13 +6571,16 @@ textarea.form-control {
   }
 }
 
-/* Extra Small Devices */
-@media only screen and (min-width: 320px) and (max-width: 575px) {
-  .blog-author {
-    display: block;
-    padding: 20px;
+  @media (max-width: 767px) {
+    .container {
+      width: 100%;
+      padding: 15px;
+    }
+
+    h4 {
+      font-size: 20px;
+    }
   }
-}
 
 /*----------------------------
     Contact
